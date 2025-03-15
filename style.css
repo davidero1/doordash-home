@@ -1,0 +1,702 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    font-family:  "Figtree", sans-serif;
+}
+
+.figtree-font {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.banner {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    width: 1263px;
+    height: 55px;
+    top: 0px;
+    z-index: 6;
+}
+
+.heading1main {
+    position: relative;
+    background-image: url("hero_desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1280px;
+    padding-bottom: 480px;
+}
+
+.heading1sub {
+    position: absolute;
+    left: 490px;
+    top: -95px;
+}
+
+.heading2sub {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+a.Alink:link, a.Alink:visited {
+    background-color: #EB1700;
+    color: white;
+    padding: 7px 10px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+a.Alink:hover, a.Alink:active {
+    background-color: #d01803;
+    color: white;
+}
+
+a.Alink2:link, a.Alink2:visited {
+    background-color: white;
+    color: black;
+    padding: 7px 10px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+a.Alink2:hover, a.Alink2:active {
+    background-color: white;
+    color: black;
+}
+
+.input {
+    position: relative;
+    top: 200px;
+}
+
+.headingcentertext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+}
+
+.textfield {
+    position: absolute;
+    left: 480px;
+    top: 50px;
+}
+
+.arrow {
+    position: absolute;
+    left: 755px;
+    top: 54px;
+}
+
+.signinbuttonbox {
+    position: absolute;
+    left: 564px;
+    top: 102px;
+}
+
+a.Alink3:link, a.Alink3:visited {
+    background-color: white;
+    color: black;
+    padding: 7px 10px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+a.Alink3:hover, a.Alink3:active {
+    background-color: #d01803;
+    color: white;
+}
+
+#address {
+    border-radius: 50px;
+    padding: 11px 75px;
+    border: none;
+    position: relative;
+}
+
+.heading2 {
+    position: relative;
+    padding: 30px 50px 10px 50px;
+}
+
+.subh1 {
+    position: absolute;
+    background-color: white;
+    left: 280px;
+    top: 100px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.subh2 {
+    position: absolute;
+    background-color: white;
+    left: 560px;
+    top: 100px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.subh3 {
+    position: absolute;
+    background-color: white;
+    right: 260px;
+    top: 100px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.heading2header {
+    text-align: center;
+    font-size: 21px;
+}
+
+.para1 {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 8px;
+    line-height: 17px;
+}
+
+a.Alink4:link, a.Alink4:visited {
+    color: #ff3008;
+    padding: 7px 10px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alink4:hover, a.Alink4:active {
+    color: #d01803;
+}
+
+.heading3header {
+    text-align: left;
+    font-size: 30px;
+}
+
+.heading5text {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.heading3 {
+    position: relative;
+
+    margin-top: 400px;
+    margin-bottom: -200px;
+}
+
+.textside { 
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    left: 200px;
+    top: 100px;
+}
+
+.para2 {
+    text-align: left;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.imgside {
+    position: relative;
+    left: 550px;
+    top: 33px;
+    z-index: 1;
+}
+
+a.Alink5:link, a.Alink5:visited {
+    background-color: #EB1700;
+    color: white;
+    padding: 7px 10px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+a.Alink5:hover, a.Alink5:active {
+    background-color: #d01803;  
+    color: white;
+}
+
+.heading4 {
+    position: relative;
+    top: 200px;
+    width: 500px;
+    z-index: 0;
+}
+
+.artside1 {
+    position: absolute;
+    height: 420px;
+    width: 1263px;
+    top: 6px;
+    background-color: rgb(252, 235, 235);
+}
+
+.artside2 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    text-align: left;
+    padding-bottom: 60px;
+    left: 180px;
+    top: 50px;
+}
+
+aside { 
+    position: absolute;
+    text-align: left;
+    top: 150px;
+    left: 750px;
+    width: 300px;
+}
+
+.heading5 {
+    position: relative;
+    background-image: url("grocery_desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1280px;
+    padding-bottom: 400px;
+    top: 620px;
+    bottom: 500px;
+}
+
+.blackbkg {
+    position: absolute;
+    background-color: #13131381;
+    width: 1263px;
+    height: 400px;
+}
+
+.centeredtext {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    bottom: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.heading4header {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.heading5text {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.para3 {
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2px;
+    color: white;
+    line-height: 17px;
+}
+
+.heading6 {
+    position: relative;
+    top: 645px;
+    background-color: white;
+}
+
+.heading3header {
+    text-align: left;
+    font-size: 29px;
+}
+
+.heading7 {
+    position: relative;
+    top: 650px;
+    background-color: rgb(252, 235, 235);
+    width: 1263px;
+    height: 1200px;
+    z-index: 1;
+}
+
+.textside0 { 
+    position: absolute;
+    text-align: left;
+    left: 200px;
+    top: 100px;
+}
+
+.imgside0 {
+    position: relative;
+    left: 550px;
+    top: 20px;
+    z-index: 2;
+}
+
+.containerh7 {
+    position: absolute;
+    width: 100px;
+}
+
+.ch7a {
+    position: relative;
+}
+
+.ch7b {
+    position: absolute;
+    top: 30px;
+}
+
+.heading7header {
+    position: absolute;
+    width: 500px;
+    left: 380px;
+    top: 50px;
+}
+
+.heading7text {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.heading7atext {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    padding-top: 10px;
+}
+
+.imgside1 {
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    text-align: center;
+}
+
+.imgside2 {
+    position: absolute;
+    top: 130px;
+    left: 220px;
+    text-align: center;
+}
+
+.imgside3 {
+    position: absolute;
+    top: 630px;
+    left: 220px;
+    text-align: center;
+}
+
+.imgside4 {
+    position: absolute;
+    top: 630px;
+    left: 650px;
+    text-align: center;
+}
+
+.para4 {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 2px;
+    line-height: 17px;
+}
+
+.para5 {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    line-height: 17px;
+}
+
+.heading8 {
+    position: relative;
+    background-color: white;
+    top: 686px;
+}
+
+.containerh8 {
+    position: absolute;
+}
+
+.textside8 { 
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    left: 200px;
+    top: 180px;
+}
+
+.imgside8 {
+    position: relative;
+    left: 550px;
+    top: 20px;
+    z-index: 1;
+}
+
+.heading8aheader {
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+}
+
+.heading8header {
+    text-align: left;
+    font-size: 28px;
+    color: black;
+}
+
+.para6 {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
+    line-height: 17px;
+}
+
+.heading9 {
+    position: relative;
+    top: 1125px;
+    z-index: 0;
+}
+
+.containerh9 {
+    position: absolute;
+    background-color: rgb(252, 235, 235);
+    width: 1263px;
+    height: 435px;
+    top: -20px;
+}
+
+.heading9header {
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+
+.para7 {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
+    line-height: 17px;
+}
+
+.textside9 { 
+    position: absolute;
+    text-align: left;
+    top: 125px;
+    left: 750px;
+    width: 300px;
+}
+
+.imgside9 {
+    position: relative;
+    top: 65px;
+    left: 180px;
+}
+
+.heading10 {
+    position: relative;
+    top: 1570px;
+    text-align: center;
+}
+
+.containerh10 {
+    position: absolute;
+    background-color: white;
+    width: 1263px;
+    height: 500px;
+}
+
+.heading10header {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+table {
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    left: 200px;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    border: none;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+th {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+footer {
+    background-color: #191919;
+    padding: 20px 0px 630px 0px;
+    position: relative;
+    width: 1263px;
+    top: 1785px;
+}
+
+.footercontainer {
+    position: absolute;
+}
+
+.category1 {
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 35px;
+    width: 200px;
+}
+
+.category2 {
+    text-align: left;
+    position: absolute;
+    left: 430px;
+    top: 70px;
+    width: 200px;
+}
+
+.category3 {
+    text-align: left;
+    position: absolute;
+    left: 660px;
+    top: 70px;
+    width: 200px;
+}
+
+.category4 {
+    text-align: left;
+    position: absolute;
+    left: 900px;
+    top: 70px;
+    width: 200px;
+}
+
+.category5 {
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    width: 200px;
+}
+
+.category6 {
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    width: 200px;
+}
+
+.category7 {
+    text-align: left;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    width: 200px;
+}
+
+.category8 {
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 590px;
+    width: 550px;
+    padding-bottom: 20px;
+}
+
+.category8a {
+    text-align: left;
+    position: absolute;
+    left: 800px;
+    top: 585px;
+    width: 200px;
+}
+
+.category9 {
+    position: absolute;
+    left: 950px;
+    top: 585px;
+    width: 200px;
+}
+
+.fa-brands {
+    color: red;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+h6 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+li {
+    font-size: 10px;
+    color: lightgrey;
+    line-height: 20px;
+    
+}
+
+.para8 {
+    font-size: 10px;
+    color: grey;
+    line-height: 17px;
+}
+
+#lang {
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px 6px;
+}
